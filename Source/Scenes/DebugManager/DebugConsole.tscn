@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Source/Scripts/Debug/DebugConsole.cs" type="Script" id=1]
+[ext_resource path="res://Imported/Fonts/Perfect DOS VGA 437 Win.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[node name="DebugConsole" type="Control"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -648.0
+margin_bottom = -384.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Output" type="TextEdit" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+focus_mode = 0
+custom_fonts/font = SubResource( 1 )
+text = "Hello_world"
+readonly = true
+highlight_current_line = true
+show_line_numbers = true
+smooth_scrolling = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Input" type="LineEdit" parent="."]
+margin_left = 1.0
+margin_top = 218.0
+margin_right = 375.0
+margin_bottom = 242.0
+caret_blink = true
+caret_blink_speed = 0.5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="text_entered" from="Input" to="." method="_on_input_text_entered"]

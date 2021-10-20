@@ -1,0 +1,9 @@
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.csproj.AssemblyReference.cache
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.AssemblyInfoInputs.cache
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.AssemblyInfo.cs
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.csproj.CoreCompileInputs.cache
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\bin\Debug\8RL.dll
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\bin\Debug\8RL.pdb
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.dll
+D:\DokumentyITD\coding_stuff\8RL\.mono\temp\obj\Debug\8RL.pdb
